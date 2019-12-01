@@ -6,4 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".SideBarSettingActivity">
 
+    <Button
+        android:id="@+id/button_timing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@null"
+        android:text="@string/btn_timing_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@drawable/side_bar_btn_text_top5_color"
+        />
+
+    <Button
+        android:id="@+id/button_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_label_text"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="@+id/button_timing"
+        app:layout_constraintTop_toBottomOf="@+id/button_timing"
+        android:textColor="@drawable/side_bar_btn_text_top5_color"/>
+
+    <Button
+        android:id="@+id/button_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_font_text"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="@+id/button_label"
+        app:layout_constraintTop_toBottomOf="@+id/button_label"
+        android:textColor="@drawable/side_bar_btn_text_top5_color"/>
+
+    <Button
+        android:id="@+id/button_theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_theme_color_text"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="@+id/button_font"
+        app:layout_constraintTop_toBottomOf="@+id/button_font"
+        android:textColor="@drawable/side_bar_btn_text_top5_color"/>
+
+    <Button
+        android:id="@+id/button_advanced_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_advanced_version_text"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="@+id/button_theme_color"
+        app:layout_constraintTop_toBottomOf="@+id/button_theme_color"
+        android:textColor="@drawable/side_bar_btn_text_top5_color"/>
+
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@null"
+        android:text="@string/btn_setting_text"
+        app:layout_constraintStart_toStartOf="@+id/button_advanced_version"
+        app:layout_constraintTop_toBottomOf="@+id/button_advanced_version"
+        android:textColor="@drawable/side_bar_btn_text_bottom3_color"/>
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_about_text"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@+id/button_help_and_feedback"
+        app:layout_constraintStart_toStartOf="@+id/button_setting"
+        app:layout_constraintTop_toBottomOf="@+id/button_setting"
+        android:textColor="@drawable/side_bar_btn_text_bottom3_color"/>
+
+    <Button
+        android:id="@+id/button_help_and_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_help_and_feedback_text"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="@+id/button_about"
+        app:layout_constraintTop_toBottomOf="@+id/button_about"
+        android:textColor="@drawable/side_bar_btn_text_bottom3_color"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

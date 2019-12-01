@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">My_iTime</string>
     <string name="side_bar_name">≡</string>
+
+    <string name="btn_timing_text">计时</string>
+    <string name="btn_label_text">标签</string>
+    <string name="btn_font_text">更改字体和背景</string>
+    <string name="btn_theme_color_text">主题色</string>
+    <string name="btn_advanced_version_text">高级版</string>
+    <string name="btn_setting_text">设置</string>
+    <string name="btn_about_text">关于</string>
+    <string name="btn_help_and_feedback_text">帮助与反馈</string>
+
+
 </resources>
